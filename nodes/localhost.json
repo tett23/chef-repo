@@ -1,1 +1,15 @@
-{"run_list": ["recipe[basic]"]}
+{
+  "run_list": [
+    "apt",
+    "git",
+    "ruby",
+    "chef_gem",
+    "chef-rvm",
+    "vim",
+    "zsh",
+    "tmux",
+    "byobu",
+    "basic",
+    "virtalbox"
+  ]
+}
