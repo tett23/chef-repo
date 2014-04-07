@@ -1,6 +1,11 @@
 {
   "run_list": [
     "apt",
+    "rvm",
+    "curl",
+    "build-essential",
+    "sudo",
+    "rsync",
     "git",
     "ruby",
     "chef_gem",
