@@ -5,6 +5,6 @@
     "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzNOSftPp2x2BCURzt3KMv+qAB2TZf04B5I3eqjZaeQNq8VBsq7b/IY853asnb0Xtonccdt8sX7iYl1HHZ6XczmYd2A3Yl+qVdEeioO7W6m4WrZ+2s2d4JIF3Ptu0mfKEYs2OX3uAJP447wjBP6yOi12lKK+j8HsmNIQ1WxlSHnnYMaMox8+9dwJKHULjLEo9fd4CCsuHn/EzTS0YQUf+Op/36v4VeyUaVcCXQsIkxf6FoPdThIqG/MMb8P188qxLmkGWi8R+cXosu+N6UGL1az3IvLIIH3GN6t3weEXvMZtXDTvXSUSw+OMYl6j0/t2t0uU5025OqDqcRjzcUOs2Z tett23@pan"
   ],
   "groups": ["tett23", "wheel"],
-  "uid": 1000,
+  "uid": 1100,
   "shell": "\/bin\/zsh"
 }

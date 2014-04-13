@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
-%w{build-essential libxml2-dev zsh-beta}.each do |pkg|
+%w{build-essential ohai libxml2-dev zsh-beta}.each do |pkg|
   package pkg do
     action :install
   end

@@ -58,6 +58,23 @@
       "git": "git@github.com:bradleyd/virtualbox-cookbook.git",
       "ref": "d27459575f59f38182c931dbe69a7b61f4830905"
     },
+    "nginx": {
+      "locked_version": "2.5.0"
+    },
+    "smbfs": {
+      "locked_version": "0.2.0"
+    },
+    "packer": {
+      "locked_version": "0.3.0"
+    },
+    "mariadb": {
+      "locked_version": "2.0.0",
+      "git": "git@github.com:tett23/chef-mariadb.git",
+      "ref": "6099e67f3e0d628323bdc458d0b7fa5fe1a3248a"
+    },
+    "openssl": {
+      "locked_version": "1.1.0"
+    },
     "dmg": {
       "locked_version": "2.2.0"
     },
@@ -90,6 +107,18 @@
     },
     "pacman": {
       "locked_version": "1.1.1"
+    },
+    "bluepill": {
+      "locked_version": "2.3.1"
+    },
+    "rsyslog": {
+      "locked_version": "1.12.2"
+    },
+    "ohai": {
+      "locked_version": "1.1.12"
+    },
+    "ark": {
+      "locked_version": "0.4.2"
     }
   }
 }

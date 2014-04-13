@@ -22,6 +22,15 @@
       "users": ["tett23"]
     }
   },
+  "mariadb": {
+     "server_debian_password": "$1$7wDWcOpo$3ZbMgdmeGLE4ZgcvsCzs4.",
+     "server_root_password": "password",
+     "server_repl_password": "$1$7wDWcOpo$3ZbMgdmeGLE4ZgcvsCzs4.",
+     "bind-address": "192.168.1.106",
+     "server": {
+       "old_passwords": "$1$WM1Ihupm$tNvJwqzGgAavqlK.3eGBy/"
+     }
+  },
   "run_list": [
     "apt",
     "curl",
@@ -31,14 +40,16 @@
     "sudo",
     "rsync",
     "git",
+    "common",
     "ruby",
-    "chef-rvm",
     "vim",
     "zsh",
+    "oh-my-zsh",
     "tmux",
     "byobu",
+    "openssl",
+    "recipe[mariadb::server]",
     "basic",
-    "virtalbox",
-    "packer"
+    "chef-rvm"
   ]
 }

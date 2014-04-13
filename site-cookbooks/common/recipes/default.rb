@@ -10,6 +10,6 @@
 include_recipe 'users'
 
 users_manage 'tett23' do
-  group_id 1000
+  group_id 1100
   action [:remove, :create]
 end
