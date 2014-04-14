@@ -1,0 +1,9 @@
+server {
+  access_log /var/log/nginx/mizuaoi-access.log;
+  error_log  /var/log/nginx/mizuaoi-error.log;
+  server_name <%=node['mizuaoi']['host']%>;
+  location /movie {
+    root /var/frogbit;
+    index index.html index.htm;
+  }
+}

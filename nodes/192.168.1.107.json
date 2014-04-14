@@ -22,6 +22,9 @@
       "users": ["tett23"]
     }
   },
+  "mizuaoi": {
+    "host": "192.168.1.107"
+  },
   "run_list": [
     "apt",
     "curl",
@@ -40,6 +43,9 @@
     "byobu",
     "openssl",
     "basic",
+    "nginx",
+    "cifs-utils",
+    "chef_mizuaoi",
     "chef-rvm"
   ]
 }
