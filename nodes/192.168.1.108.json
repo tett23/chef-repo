@@ -1,0 +1,47 @@
+{
+  "users": {
+    "tett23": {
+      "groups": "rvm"
+    }
+  },
+  "rvm": {
+    "default_ruby": "ruby-2.1.0",
+    "user_default_ruby": "ruby-2.1.0",
+    "rubies": ["ruby-2.1.0"],
+    "user_rubies": ["ruby-2.1.0"],
+    "user_installs": [
+      {
+        "user": "tett23",
+        "default_ruby": "ruby-2.1.0",
+        "rubies": ["ruby-2.1.0"]
+      }
+    ]
+  },
+  "authorization": {
+    "sudo": {
+      "users": ["tett23"]
+    }
+  },
+  "run_list": [
+    "apt",
+    "curl",
+    "users",
+    "chef-solo-search",
+    "build-essential",
+    "sudo",
+    "rsync",
+    "git",
+    "common",
+    "ruby",
+    "vim",
+    "zsh",
+    "oh-my-zsh",
+    "tmux",
+    "byobu",
+    "openssl",
+    "basic",
+    "nginx",
+    "cifs-utils",
+    "chef-rvm"
+  ]
+}
