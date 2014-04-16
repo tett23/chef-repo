@@ -26,7 +26,7 @@
      "server_debian_password": "$1$7wDWcOpo$3ZbMgdmeGLE4ZgcvsCzs4.",
      "server_root_password": "password",
      "server_repl_password": "$1$7wDWcOpo$3ZbMgdmeGLE4ZgcvsCzs4.",
-     "bind-address": "192.168.1.106",
+     "bind_address": "192.168.1.106",
      "server": {
        "old_passwords": "$1$WM1Ihupm$tNvJwqzGgAavqlK.3eGBy/"
      }
