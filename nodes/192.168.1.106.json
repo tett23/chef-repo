@@ -49,6 +49,9 @@
     "byobu",
     "openssl",
     "recipe[mariadb::server]",
+    "recipe[groonga::default]",
+    "recipe[groonga::development]",
+    "recipe[groonga::tokenizer-mecab]",
     "basic",
     "chef-rvm"
   ]
