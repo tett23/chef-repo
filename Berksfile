@@ -24,3 +24,5 @@ cookbook 'packer'
 cookbook 'mariadb', git: 'git@github.com:tett23/chef-mariadb.git'
 cookbook 'openssl'
 cookbook "groonga", github: "groonga/chef-cookbooks", rel: "groonga"
+cookbook 'xml'
+cookbook 'chef-handbrake', github: 'denisura/chef-handbrake'

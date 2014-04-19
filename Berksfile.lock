@@ -81,6 +81,14 @@
       "ref": "908a0a629a4578bd713ddcdf2ce39a27a224406a",
       "rel": "groonga"
     },
+    "xml": {
+      "locked_version": "1.2.4"
+    },
+    "chef-handbrake": {
+      "locked_version": "0.1.0",
+      "git": "git://github.com/denisura/chef-handbrake.git",
+      "ref": "88669af34c4746533648a4b59997c50720baa612"
+    },
     "dmg": {
       "locked_version": "2.2.0"
     },
