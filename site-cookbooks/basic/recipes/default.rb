@@ -20,9 +20,3 @@ git '/home/tett23/dotfiles' do
   user 'tett23'
   group 'tett23'
 end
-
-execute 'install rvm' do
-  command 'curl -sSL https://get.rvm.io | bash'
-  not_if {`which rvm`.match(/not found/)}
-end
-
