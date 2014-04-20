@@ -1,1 +1,47 @@
-{"run_list":[]}
+{
+  "users": {
+    "tett23": {
+      "groups": "rvm"
+    },
+    "debian-sys-maint": {
+      "groups": "mysql"
+    }
+  },
+  "authorization": {
+    "sudo": {
+      "users": ["tett23"]
+    }
+  },
+  "mariadb": {
+     "server_debian_password": "password",
+     "server_root_password": "password",
+     "server_repl_password": "$1$7wDWcOpo$3ZbMgdmeGLE4ZgcvsCzs4.",
+     "bind_address": "192.168.1.105"
+  },
+  "mizuaoi": {
+    "host": "192.168.1.105"
+  },
+  "run_list": [
+    "apt",
+    "curl",
+    "users",
+    "chef-solo-search",
+    "build-essential",
+    "sudo",
+    "rsync",
+    "git",
+    "common",
+    "recipe[common::mysql-sys-maint]",
+    "vim",
+    "zsh",
+    "oh-my-zsh",
+    "tmux",
+    "byobu",
+    "openssl",
+    "recipe[mariadb::server]",
+    "basic",
+    "nginx",
+    "cifs-utils",
+    "chef_mizuaoi"
+  ]
+}
