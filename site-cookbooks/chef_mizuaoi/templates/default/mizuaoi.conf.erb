@@ -5,6 +5,9 @@ server {
   location /movie {
     root /var/frogbit;
     index index.html index.htm;
+    mp4;
+    mp4_buffer_size 1m;
+    mp4_max_buffer_size 5m;
   }
   location / {
     proxy_pass http://192.168.1.100:3000;
